@@ -1,0 +1,21 @@
+# 문제
+- 링크: 
+<https://school.programmers.co.kr/learn/courses/30/lessons/120825>
+
+# 소스코드
+```
+class Solution {
+    public String solution(String my_string, int n) {
+        String answer = "";
+        for(int i = 0; i <= my_string.length() - 1; i++){
+            for(int j = 0; j <= n-1; j++) {
+                answer += my_string.charAt(i);
+            }
+        }
+        return answer;
+    }
+}
+```
+# 풀이
+- ![String 클래스]()의 메소드인 charAt()사용
+- ![String 클래스]()의 메소드인 length()사용
